@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function App() {
-  const API_URL = "https://umb-web-taller-1.onrender.com";
+  const API_URL = "https://umb-web-taller-1.onrender.com/index.php";
 
   const [tareas, setTareas] = useState([]);
   const [titulo, setTitulo] = useState("");
